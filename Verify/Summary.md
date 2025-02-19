@@ -20,10 +20,11 @@ The challenge involved connecting to a remote instance via SSH and identifying a
 - Initially attempted grepping the provided checksum directly within the `files/` directory but got no matches.  
 - Realized that SHA-256 checksums could be generated for all files using:  
 
-  ```bash
-  sha256sum files/*
+  `sha256sum files/* `
 
-  Successfully retrieved the flag: picoCTF{trust_but_verify_2cdcb2de}.
+### 4. Decrypting and Obtaining the Flag
+- Ran ` ./decrypt.sh <identified_file> to decrypt the file. `
+- Successfully retrieved the flag: ``picoCTF{trust_but_verify_2cdcb2de}.``
 ## Key Takeaways
 - Checksums are useful for verifying file integrity and identification.
 - Generating and comparing hashes can help locate specific files when a checksum is provided.

@@ -15,37 +15,37 @@ Note Insert picture here of the challenge menu
 
 ## <strong>2. Initial Thoughts</strong>
 
-After opening up the attached web shell the first command I ran was 
+- After opening up the attached web shell the first command I ran was 
 `ls -la`  to check out what files existed in the shell.
 
 note insert picture of the ls -la and the cated readme
 
 
-The only file currently accessible was a README.txt and to view the contents of the file, I ran the following command:
+- The only file currently accessible was a README.txt and to view the contents of the file, I ran the following command:
 `cat README.txt`
 
 Screenshot readme
 
-The README file contained a general welcome message followed my tips and advice on using the web shell to solve challenges including a brief introduction to navigating a cli using Linux commands
+- The README file contained a general welcome message followed my tips and advice on using the web shell to solve challenges including a brief introduction to navigating a cli using Linux commands
 
 screenshot of readme linux portion
 
-Despite the description of the challenge heavily implying that the flag is within the downloadable file, I still found it worth my time to familiarize myself with the shell as it would have been important to be familiar with existing directories if they existed on the shell.
+- Despite the description of the challenge heavily implying that the flag is within the downloadable file, I still found it worth my time to familiarize myself with the shell as it would have been important to be familiar with existing directories if they existed on the shell.
 
 <br>
 
 ## <strong>3. Getting to the flag</strong>
 
-To obtain the flag you must download the file containing the flag using the URL provided in the challenge description.
+- To obtain the flag you must download the file containing the flag using the URL provided in the challenge description.
 
-In the web shell type `wget` followed by the url to download the file. You can confirm the file successfully downloaded by typing `ls` and making sure it shows up in your current directory.
+- In the web shell type `wget` followed by the url to download the file. You can confirm the file successfully downloaded by typing `ls` and making sure it shows up in your current directory.
 
 picture of wget download
 
 picture of the ls containing the flag
 
 
-using the command `cat flag.txt` will show the contents of the flag file and reveal the flag to complete the challenge
+- using the command `cat flag.txt` will show the contents of the flag file and reveal the flag to complete the challenge
 
 note show flag with marked out inside part only showing the picoCTF{ }
 

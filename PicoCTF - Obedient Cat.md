@@ -8,8 +8,8 @@
 
 **Description:** This file has a flag in plain sight (aka "in-the-clear"). 
 
+<img width="1002" height="629" alt="image" src="https://github.com/user-attachments/assets/e16c58ba-c4c8-4d7f-9685-ca3d8fac0e1e" />
 
-Note Insert picture here of the challenge menu
 
 <br>
 
@@ -18,17 +18,20 @@ Note Insert picture here of the challenge menu
 - After opening up the attached web shell the first command I ran was 
 `ls -la`  to check out what files existed in the shell.
 
-note insert picture of the ls -la and the cated readme
+<img width="706" height="251" alt="image" src="https://github.com/user-attachments/assets/f69e6d85-8a5c-4949-a224-7fba33c79f67" />
+
 
 
 - The only file currently accessible was a README.txt and to view the contents of the file, I ran the following command:
 `cat README.txt`
 
-Screenshot readme
+<img width="683" height="471" alt="image" src="https://github.com/user-attachments/assets/f283f765-5ba2-4dd1-835b-3e5748df768f" />
+
 
 - The README file contained a general welcome message followed my tips and advice on using the web shell to solve challenges including a brief introduction to navigating a cli using Linux commands
 
-screenshot of readme linux portion
+<img width="706" height="425" alt="image" src="https://github.com/user-attachments/assets/6aa750a0-6226-4d70-bed1-0952a7463633" />
+
 
 - Despite the description of the challenge heavily implying that the flag is within the downloadable file, I still found it worth my time to familiarize myself with the shell as it would have been important to be familiar with existing directories if they existed on the shell.
 
@@ -40,14 +43,17 @@ screenshot of readme linux portion
 
 - In the web shell type `wget` followed by the url to download the file. You can confirm the file successfully downloaded by typing `ls` and making sure it shows up in your current directory.
 
-picture of wget download
+<img width="695" height="328" alt="image" src="https://github.com/user-attachments/assets/319c457a-c237-4fa0-8b46-c9799a93b96d" />
 
-picture of the ls containing the flag
+
+<img width="398" height="91" alt="image" src="https://github.com/user-attachments/assets/370d7c26-0e82-4535-95f2-97ad6c148001" />
+
 
 
 - using the command `cat flag.txt` will show the contents of the flag file and reveal the flag to complete the challenge
 
-note show flag with marked out inside part only showing the picoCTF{ }
+<img width="349" height="66" alt="image" src="https://github.com/user-attachments/assets/c987166e-e0b5-41b0-b162-1260a0ce998b" />
+
 
 <br>
 
@@ -65,10 +71,17 @@ note show flag with marked out inside part only showing the picoCTF{ }
 1. When using commands you are not familiar with. A helpful linux command is `man`.
 - When you type man into the terminal followed by a command, you will be shown all tags and flags you can attach to the command to receive different outputs.
 
-picture of the man cat page
+<img width="698" height="793" alt="image" src="https://github.com/user-attachments/assets/148439e2-0257-4fd5-aeab-0b9752c85558" />
 
-Overall, this challenge serves as a simple onboarding exercise to familiarize users with the environment they will be working in while they take on other challenges.
+
+- Overall, this challenge serves as a simple onboarding exercise to familiarize users with the environment they will be working in while they take on other challenges.
 
 <br>
 
 ## <strong>For more information:</strong>
+
+For more information regarding topics and concepts covered in this lab you can check out the folowing links:
+
+1. Linux Command manual page:
+   - https://www.man7.org/linux/man-pages/man1/man.1.html
+

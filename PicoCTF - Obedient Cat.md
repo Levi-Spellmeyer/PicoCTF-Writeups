@@ -15,8 +15,8 @@
 
 ## <strong>2. Initial Thoughts</strong>
 
-- After opening up the attached web shell the first command I ran was 
-`ls -la`  to check out what files existed in the shell.
+- After opening up the attached web terminal the first command I ran was 
+`ls -la`  to check out what files existed in the terminal.
 
 <img width="706" height="251" alt="image" src="https://github.com/user-attachments/assets/f69e6d85-8a5c-4949-a224-7fba33c79f67" />
 
@@ -28,12 +28,12 @@
 <img width="683" height="471" alt="image" src="https://github.com/user-attachments/assets/f283f765-5ba2-4dd1-835b-3e5748df768f" />
 
 
-- The README file contained a general welcome message followed my tips and advice on using the web shell to solve challenges including a brief introduction to navigating a cli using Linux commands
+- The README file contained a general welcome message followed by tips and advice on using the web terminal to solve challenges including a brief introduction to navigating a cli using Linux commands
 
 <img width="706" height="425" alt="image" src="https://github.com/user-attachments/assets/6aa750a0-6226-4d70-bed1-0952a7463633" />
 
 
-- Despite the description of the challenge heavily implying that the flag is within the downloadable file, I still found it worth my time to familiarize myself with the shell as it would have been important to be familiar with existing directories if they existed on the shell.
+- Despite the description of the challenge heavily implying that the flag is within the downloadable file, I still found it worth my time to familiarize myself with the terminal as it would have been important to be familiar with existing directories if they were present within web terminal.
 
 <br>
 
@@ -41,7 +41,7 @@
 
 - To obtain the flag you must download the file containing the flag using the URL provided in the challenge description.
 
-- In the web shell type `wget` followed by the url to download the file. You can confirm the file successfully downloaded by typing `ls` and making sure it shows up in your current directory.
+- In the web terminal type `wget` followed by the url to download the file. You can confirm the file successfully downloaded by typing `ls` and making sure it shows up in your current directory.
 
 <img width="695" height="328" alt="image" src="https://github.com/user-attachments/assets/319c457a-c237-4fa0-8b46-c9799a93b96d" />
 
@@ -68,8 +68,8 @@
 
 ## <strong>Takeaways and final notes<strong>
 
-1. When using commands you are not familiar with. A helpful linux command is `man`.
-- When you type man into the terminal followed by a command, you will be shown all tags and flags you can attach to the command to receive different outputs.
+1. When using commands you are not familiar with, to see that commands manual page use `man`.
+- When you type man into the terminal followed by a keyword/command, you will be shown all tags and flags you can append to the command/keyword to receive different kinds of outputs
 
 <img width="698" height="793" alt="image" src="https://github.com/user-attachments/assets/148439e2-0257-4fd5-aeab-0b9752c85558" />
 

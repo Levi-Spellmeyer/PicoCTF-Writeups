@@ -15,6 +15,7 @@
 <br>
 
 ---
+### <strong>2. Initial Thoughts: </strong>
 
 - After opening up the attached web terminal which can be found on the right side of the screen,  the first command I ran was  `ls -la`  to see what directories or files already exist.
 - Think of a directory as a folder that can contain other folders or files
@@ -54,7 +55,7 @@
 
 <br>
 
-## <strong>3. Getting to the flag</strong>
+### <strong>3. Getting to the flag</strong>
 - To obtain the flag you must download the provided file containing the flag using the URL found in the challenge description.
 - Right click the blue 'Download flag' text and copy the link
 - In the web terminal type `wget` then right click and click paste, then enter
@@ -89,7 +90,7 @@
 
 ---
 
-## <strong>Provided Hints:</strong>
+### <strong>4. Provided Hints:</strong>
 
 1. Any hints about entering a command into the Terminal (such as the next one), will start with a '$'... everything after the dollar sign will be typed (or copy and pasted) into your Terminal.
 
@@ -99,7 +100,7 @@
 
 <br>
 
-## <strong>Takeaways and final notes</strong>
+### <strong>5. Takeaways and final notes</strong>
 
 - When using commands you are not familiar with, to see that commands manual page use `man`.
 - When you type man into the terminal followed by a keyword/command, you will be shown all tags and flags you can append to the command/keyword to receive different kinds of outputs

@@ -8,7 +8,7 @@
 **Author:** SANJAY C/DANNY TUNITIS
 **Description:** Using netcat (nc) is going to be pretty important. Can you connect to fickle-tempest.picoctf.net at port {port number} to get the flag
 ___ 
-![[Pasted image 20251202094107.png]]
+<img width="1058" height="560" alt="image" src="https://github.com/user-attachments/assets/dc1f4109-b461-435c-bb8f-ad6886663eac" />
 
 ---
 >[!Note]
@@ -40,11 +40,12 @@ So before even checking the man page for the Netcat tool, we now know that more 
 After reading a bit about the Netcat tool and launching the instance, the first command I ran was ls -la. While I do not expect to find any challenge related files, I find it a good habit when approaching a new challenge to establish a baseline of what exists in the terminal or system before continuing on with the challenge. 
 <details>
 <summary>More about `ls -la`</summary>
-Appending the `-l` flag to the end of your `ls` command specifies that you want to list the files in your current directory in a 'long' format, displaying file type, permissions, as well as other information Appending the `-a` to the `ls` command specifies that you want to list all files including hidden files (files that start with ' . ')
-
+Appending the `-l` flag to the end of your `ls` command specifies that you want to list the files in your current directory in a 'long' format, displaying file type, permissions, as well as other information Appending the `-a` to the `ls` command specifies that you want to list all files including hidden files (files that start with ' . ')\
 </details>
+
 ---
-![[Pasted image 20251202094346.png]]
+<img width="1042" height="412" alt="image" src="https://github.com/user-attachments/assets/0c3e0d98-2206-45d3-8f91-e69e8001ac78" />
+
 ---
 Since there are no notable files within the web terminal I decided to move forward with what I saw as the next logical step for this challenge and that is to check the manual page for netcat. Since I am almost positive that this challenge revolves around the tool, finding out the appropriate syntax is important.
 
@@ -55,7 +56,7 @@ The command to open the manual page for netcat is `man nc`
 >we are given a web address and a port so we may need to also look for a flag to specify port in the manual page
 
 ---
-![[Pasted image 20251202094414.png]]
+<img width="1028" height="763" alt="image" src="https://github.com/user-attachments/assets/b01c7503-4d02-4d33-916f-5e4945fa8911" />
 
 ---
 So within this manual page we can see confirmation that this utility does allow for port scanning, listening for traffic on specified ports, and for outbound connection.
@@ -63,8 +64,7 @@ So within this manual page we can see confirmation that this utility does allow 
 Looking through the synopsis at the top of the page the first thing that caught my eyes was the source port flag `-p` if you scroll down this manual page you will also see the -p flag again with a bit more of a description behind its functionality.
 
 ---
-
- <img>20251202094533.png</img>
+<img width="990" height="308" alt="image" src="https://github.com/user-attachments/assets/283e0b77-6a9a-43c7-9862-52f00ff26576" />
 
 
 ---
@@ -74,12 +74,17 @@ When I tried to run the command it displayed and error and upon looking back in 
 
 Looking one set of brackets before the port specification you can see square brackets with the word destination in it. This made it clear to me that the syntax I was looking for was `nc [destination] [port]`.
 
+---
+<img width="1033" height="320" alt="image" src="https://github.com/user-attachments/assets/bdebf4f4-1587-4c2d-bd57-9a8cec44d284" />
+
+
+---
 Trying this string filled in with the provided information from the challenge description revealed to me the flag.
 
-![[Pasted image 20251202094940.png]]
+<img width="997" height="346" alt="image" src="https://github.com/user-attachments/assets/67b3f32a-18f7-45db-aa4e-d92f3ecd741f" />
 
 <strong>Provided Hints</strong>
-1. 
+1. nc tutorial
 
 
 
@@ -90,4 +95,3 @@ Trying this string filled in with the provided information from the challenge de
 
 <strong>For more information</strong>
 1. https://linuxvox.com/blog/netcat-nc-command-with-examples/
-2. 

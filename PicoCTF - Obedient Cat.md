@@ -1,6 +1,8 @@
 # PicoCTF - Obedient Cat
 
-### <strong> 1.  Initial Info: </strong>
+---
+
+### <strong>1.  Initial Info: </strong>
 
 **Tags:** (Easy), (General Skills), (PicoCTF 2021)
 
@@ -8,6 +10,7 @@
 
 **Description:** This file has a flag in plain sight (aka "in-the-clear").  
 
+---
 
 <img width="706" height="400" alt="image" src="https://github.com/user-attachments/assets/e16c58ba-c4c8-4d7f-9685-ca3d8fac0e1e" />
 
@@ -53,8 +56,6 @@
 
 ---
 
-<br>
-
 ### <strong>3. Getting to the flag</strong>
 - To obtain the flag you must download the provided file containing the flag using the URL found in the challenge description.
 - Right click the blue 'Download flag' text and copy the link
@@ -77,8 +78,6 @@
 
 <img width="349" height="66" alt="image" src="https://github.com/user-attachments/assets/c987166e-e0b5-41b0-b162-1260a0ce998b" />
 
----
-
 <details>
 <summary>Click Here to Reveal the Flag</summary>
 
@@ -98,18 +97,20 @@
 
 3. `$ man cat`
 
-<br>
+---
 
 ### <strong>5. Takeaways and final notes</strong>
 
 - When using commands you are not familiar with, to see that commands manual page use `man`.
 - When you type man into the terminal followed by a keyword/command, you will be shown all tags and flags you can append to the command/keyword to receive different kinds of outputs
 
+---
+
 <img width="698" height="793" alt="image" src="https://github.com/user-attachments/assets/148439e2-0257-4fd5-aeab-0b9752c85558" />
 
+---
 
 - Overall, this challenge serves as a simple onboarding exercise to familiarize users with the environment they will be working in while they take on other challenges.
-<br>
 
 ---
 
